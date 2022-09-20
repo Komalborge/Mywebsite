@@ -3,7 +3,7 @@
 <head>
     <title>Project Details</title>
 <body>
-<h1>Project Details</h1>
+<h1><b>Project Details</h1></b>
 <hr>
 <h2><p>Name:&nbsp<u>Student Management</u></p></h2>
 <p><u><b>Environment:</b></u>&nbsp&nbsp<mark>Angular 8,Typescript,Javascript(ES6),HTML5,CSS,Bootstrap,GitHub,DesktopGitHub,Agile and JIRA,IDE-VScode</p></mark>
