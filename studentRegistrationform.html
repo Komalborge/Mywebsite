@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 
     <style>
-        h1 {
-            text-shadow: black;
+        h4 {
+           text-shadow: blue; 
         }
 
         body {
-            background-color: beige;
+            background-color: rgb(187, 187, 157);
             padding: 50px;
         }
 
@@ -36,14 +36,14 @@
             color: blue;
             background: bisque;
             width: 180px;
-            text-transform: uppercase;
+            text-transform: capitalize;
             border-radius: 10px;
         }
         input[type="123"]{
             color: blue;
             background: bisque;
-            width: 180;
-            text-transform: uppercase;
+            width: 180px;
+            text-transform: capitalize;
             border-radius: 10px;
         }
 
@@ -103,7 +103,6 @@
 
         }
         input[type="file"] {
-            background-color: bisque;
             color:  blue;
             width: 180px;
             text-transform: capitalize;
@@ -112,8 +111,8 @@
 
         }
         button{
-            color: blue;
-            background-color: rgb(251, 234, 234);
+            color: red;
+            background-color: yellow;
         }
     
     </style>
@@ -121,14 +120,17 @@
 </head>
 
 <body>
-    <marquee behavior="scrolling" direction="left" width="100px" height="100px">
-    <h1><u><i>Student Registration Form</i></u></h1></marquee>
+    <h1 style="color: red;"><u><i>Student Registration Form</i></u></h1>
     <form>
-        <label>First Name</label>
-        <input type="abc">
+        <tr>
+        <td><label>First Name</label></td>
+        <td><input type="abc"></td>
+        </tr>
         <br><br>
-        <label>Last Name</label>
-        <input type="abc">
+        <tr>
+        <td><label>Last Name</label></td>
+        <td><input type="abc"></td>
+        </tr>
         <br><br>
         <label>Mobile no</label>
         <input type="123">
@@ -180,12 +182,8 @@
             <button type="button">Reset</button>
         </span>
         <br>
-
-
-        <br>
-        <br>
-
-        <h3><b>SSO sign in Options</h3></b> <p> &nbsp;&nbsp;&nbsp;<i class="fa fa-google" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<i
+         <marquee behavior="salmon" direction="left" width="100px" height="100px">
+        <h3><b>SSO sign in Options</h3></b></marquee> <p> &nbsp;&nbsp;&nbsp;<i class="fa fa-google" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<i
                 class="fa fa-facebook-official" aria-hidden="true"></i>
             &nbsp;&nbsp;&nbsp;<i class="fa fa-instagram" aria-hidden="true"></i>
 
